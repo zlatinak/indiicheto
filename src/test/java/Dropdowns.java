@@ -35,6 +35,8 @@ public class Dropdowns {
             Assert.assertTrue(false);
         }
 
+        System.out.println("Hello indiiche");
+
 /*
 
         System.out.println( driver.findElements(By.cssSelector("input[type=checkbox]")).size());
