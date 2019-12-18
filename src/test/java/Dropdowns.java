@@ -26,7 +26,7 @@ public class Dropdowns {
 //        System.out.println(driver.findElement(By.name("ctl00$mainContent$view_date2")).isEnabled());//
 
         System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
-        if(driver.findElement(By.id("Div1")).getAttribute("style").contains("0.5"))
+        if(driver.findElement(By.id("Div1")).getAttribute("style").contains("1"))
         {
             System.out.println("Its enabled");
             Assert.assertTrue(true);
