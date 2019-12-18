@@ -14,7 +14,7 @@ public class Dropdowns {
 
 
         Assert.assertFalse(driver.findElement(By.cssSelector("input[id*=SeniorCitizenDiscount")).isSelected());
-     //   System.out.println(driver.findElement(By.cssSelector("input[id*=SeniorCitizenDiscount")).isSelected());
+        //   System.out.println(driver.findElement(By.cssSelector("input[id*=SeniorCitizenDiscount")).isSelected());
         driver.findElement(By.cssSelector("input[id*=SeniorCitizenDiscount")).click();
         System.out.println(driver.findElement(By.cssSelector("input[id*=SeniorCitizenDiscount")).isSelected());
         Assert.assertTrue(driver.findElement(By.cssSelector("input[id*=SeniorCitizenDiscount")).isSelected());
@@ -26,12 +26,10 @@ public class Dropdowns {
 //        System.out.println(driver.findElement(By.name("ctl00$mainContent$view_date2")).isEnabled());//
 
         System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
-        if(driver.findElement(By.id("Div1")).getAttribute("style").contains("1"))
-        {
+        if (driver.findElement(By.id("Div1")).getAttribute("style").contains("1")) {
             System.out.println("Its enabled");
             Assert.assertTrue(true);
-        }
-        else{
+        } else {
             Assert.assertTrue(false);
         }
 
@@ -49,5 +47,6 @@ public class Dropdowns {
   //      s.selectByIndex(6);
 //        s.selectByVisibleText("5");
 //        Assert.assertEquals(passengers,"5 Adults");
-  */  }
+  */
+    }
 }

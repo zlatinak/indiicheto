@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Assigment {
 
     ///Lesson 62
-    public static void main (String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
         String text = "Zlatina";
 

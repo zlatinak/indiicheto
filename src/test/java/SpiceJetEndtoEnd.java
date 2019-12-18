@@ -6,7 +6,7 @@ import org.testng.Assert;
 
 public class SpiceJetEndtoEnd {
 
-    public static void main (String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\zlatinap\\Desktop\\Selenium_Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.spicejet.com/");
@@ -25,12 +25,10 @@ public class SpiceJetEndtoEnd {
         System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
         driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click(); // "Round Trip"  option is selected and "Return Date" calendar is acrive now
 
-        if(driver.findElement(By.id("Div1")).getAttribute("style").contains("1"))
-        {
+        if (driver.findElement(By.id("Div1")).getAttribute("style").contains("1")) {
             System.out.println("Its enabled");
             Assert.assertTrue(true);
-        }
-        else{
+        } else {
             Assert.assertTrue(false);
         } //check that the second calendar looks like disabled
 
@@ -42,10 +40,10 @@ public class SpiceJetEndtoEnd {
 
 
         String passengers = driver.findElement(By.id("divpaxinfo")).getText();
-        Assert.assertEquals(passengers,"1 Adult");
+        Assert.assertEquals(passengers, "1 Adult");
         driver.findElement(By.id("divpaxinfo")).click();
         Select s = new Select(driver.findElement(By.id("ctl00_mainContent_ddl_Adult")));
-     //   s.getOptions();
+        //   s.getOptions();
         s.selectByValue("6");
         driver.findElement(By.id("divpaxinfo")).click();
 
