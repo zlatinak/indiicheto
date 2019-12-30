@@ -8,11 +8,10 @@ public class AutoSuggestive {
 
 
 
+
     public static void main (String[] arg) throws InterruptedException {
       /*  System.setProperty("webdriver.chrome.driver", "C:\\Users\\zlatinap\\Desktop\\Selenium_Drivers\\chromedriver.exe");
-
         ChromeDriver driver = new ChromeDriver();
-
         driver.get("https://www.makemytrip.com/");
         WebElement from = driver.findElement(By.id("fromCity"));
         from.sendKeys("MUM");
@@ -24,14 +23,11 @@ public class AutoSuggestive {
 //        driver.findElement(By.id("react-autowhatever-1-section-0-item-0")).click();
 //        WebElement destination = driver.findElement(By.cssSelector("label[for=toCity]"));;
 //        destination.sendKeys("test");
-
-
-
 //        driver.findElement(By.xpath("//a[@value='BLR']")).click();
 */
 
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\zlatinap\\Desktop\\Selenium_Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\Zlatina\\Desktop\\Selenium_Drivers\\chromedriver.exe");
         WebDriver driver =new ChromeDriver();
         driver.get("https://www.makemytrip.com/"); //URL in the browser
         WebElement source=driver.findElement(By.id("hp-widget__sfrom"));

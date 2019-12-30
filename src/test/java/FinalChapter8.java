@@ -6,15 +6,14 @@ import org.openqa.selenium.support.ui.Select;
 public class FinalChapter8 {
 
 
-    public static void main (String[] args ){
+    public static void main(String[] args) {
 
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\zlatinap\\Desktop\\Selenium_Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Zlatina\\Desktop\\Selenium_Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.cleartrip.com/");
         driver.manage().window().maximize();
-
 
 
         Select Adults = new Select(driver.findElement(By.id("Adults")));
@@ -31,7 +30,7 @@ public class FinalChapter8 {
 
         driver.findElement(By.id("AirlineAutocomplete")).sendKeys("indigo");//Enter text in the textbox
         driver.findElement(By.id("SearchBtn")).click();//click on Search button
-        String error=driver.findElement(By.id("homeErrorMessage")).getText();
+        String error = driver.findElement(By.id("homeErrorMessage")).getText();
         System.out.println(error);
 
     }
