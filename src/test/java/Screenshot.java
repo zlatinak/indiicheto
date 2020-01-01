@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.IOException;
 
 
-public class Miscelleanous {
+public class Screenshot {
 
     public static void main(String[] args) throws IOException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Zlatina\\Desktop\\Selenium_Drivers\\chromedriver.exe");
