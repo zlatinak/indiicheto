@@ -25,13 +25,21 @@ public class AddingItemsIntoCart1 {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\zlatinap\\Desktop\\Selenium_Drivers\\chromedriver.exe");
         ChromeDriver driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         String[] itemsNeeded = {"Cucumber", "Brocolli", "Beetroot"};//array in JAVA
-        int j=0;//counter how many veggi were found from the itemsNeeded
+
         driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
         driver.manage().window().maximize();
-        Thread.sleep(3000);
+        addItems(driver, itemsNeeded);
+        driver.findElement(By.cssSelector("img[alt=\"Cart\"]")).click();
+        driver.findElement(By.xpath("//button[text()='PROCEED TO CHECKOUT']")).click();
+        driver.findElement(By.cssSelector("input.promoCode")).sendKeys("rahulshettyacademy");
+        driver.findElement(By.cssSelector("button.promoBtn")).click();
+        System.out.println(driver.findElement(By.cssSelector("span.promoInfo")).getText());
+    }
 
-
+    public static void addItems(WebDriver driver, String[] itemsNeeded) {
+        int j = 0;//counter how many veggi were found from the itemsNeeded
         List<WebElement> products = driver.findElements(By.cssSelector("h4.product-name"));// all products with common cssSelector are stored
 
         for (int i = 0; i < products.size(); i++) {
@@ -50,13 +58,14 @@ public class AddingItemsIntoCart1 {
                 //click on Add to cart
                 driver.findElements(By.cssSelector(".product-action")).get(i).click();
                 System.out.println("click");
-                if(j==itemsNeeded.length) {
+                if (j == itemsNeeded.length) {
                     break;
                 }
-                }
-
             }
+
+        }
 
 
     }
+
 }
