@@ -9,7 +9,7 @@ public class FinalChapter8 {
     public static void main(String[] args) {
 
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\zlatinap\\Desktop\\Selenium_Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Zlatina\\Desktop\\Selenium_Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.cleartrip.com/");
