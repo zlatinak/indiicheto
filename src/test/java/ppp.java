@@ -20,18 +20,18 @@ public class ppp  {
 
 
     @BeforeClass
-    public void preconditions() throws UnsupportedEncodingException {
-        https://srv-bsf-devppptag.gw-4u.com/ppp/purchase.do?checksum=d00cd442da42e86d0b942421ec2b0f4c&country=DE&merchantLocale=en_US&city=Madrid&item_name_1=money&merchant_id=3641284379854225520&currency=EUR&user_token=auto&first_name=Fname&email=test%40mymail.com&merchant_site_id=36731&address1=Sancho%20el%20fuerte%2015&last_name=Lname&version=4.0.0&total_amount=15&item_quantity_1=1&item_amount_1=15&time_stamp=2019-11-26.13%3A31%3A43&user_token_id=IntJ3fe4ab6ce58a17c4
-        driver = WebDriverFactory.getDriver("chrome");
-        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
-        userTokenId = "user_token_id=IntJ" + Long.toHexString(Double.doubleToLongBits(Math.random()));
-        urlM = "https://srv-bsf-devppptag.gw-4u.com/ppp/purchase.do?checksum=123&country=DE&merchantLocale=en_US&city=Madrid&item_name_1=money&merchant_id=3641284379854225520&currency=EUR&user_token=auto&first_name=Fname&email=test%40mymail.com&merchant_site_id=36731&address1=Sancho%20el%20fuerte%2015&last_name=Lname&version=4.0.0&total_amount=15&item_quantity_1=1&item_amount_1=15&time_stamp=2019-11-26.13%3A31%3A43&" + userTokenId;
-        String decodedUrl = URLDecoder.decode(urlM, "UTF-8");
-        url = decodedUrl.replaceAll("http.*.?do\\?", "").replaceAll("checksum.*?(?=&)", "");
-        String chkString = url;
-        String checksum = Checksum.calculateChecksum("1KRdecbEiD9HGTlM93lAq79ygRopevJD5hz0KoGjjIhERwYB9g8T3KJr5i0PRh83", chkString.replaceAll("&.*?=", ""));
-        url = urlM.replaceAll("checksum.*?(?=&)", String.format("checksum=%s", checksum));
-    }
+//    public void preconditions() throws UnsupportedEncodingException {
+//        https://srv-bsf-devppptag.gw-4u.com/ppp/purchase.do?checksum=d00cd442da42e86d0b942421ec2b0f4c&country=DE&merchantLocale=en_US&city=Madrid&item_name_1=money&merchant_id=3641284379854225520&currency=EUR&user_token=auto&first_name=Fname&email=test%40mymail.com&merchant_site_id=36731&address1=Sancho%20el%20fuerte%2015&last_name=Lname&version=4.0.0&total_amount=15&item_quantity_1=1&item_amount_1=15&time_stamp=2019-11-26.13%3A31%3A43&user_token_id=IntJ3fe4ab6ce58a17c4
+//        driver = WebDriverFactory.getDriver("chrome");
+//        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+//        userTokenId = "user_token_id=IntJ" + Long.toHexString(Double.doubleToLongBits(Math.random()));
+//        urlM = "https://srv-bsf-devppptag.gw-4u.com/ppp/purchase.do?checksum=123&country=DE&merchantLocale=en_US&city=Madrid&item_name_1=money&merchant_id=3641284379854225520&currency=EUR&user_token=auto&first_name=Fname&email=test%40mymail.com&merchant_site_id=36731&address1=Sancho%20el%20fuerte%2015&last_name=Lname&version=4.0.0&total_amount=15&item_quantity_1=1&item_amount_1=15&time_stamp=2019-11-26.13%3A31%3A43&" + userTokenId;
+//        String decodedUrl = URLDecoder.decode(urlM, "UTF-8");
+//        url = decodedUrl.replaceAll("http.*.?do\\?", "").replaceAll("checksum.*?(?=&)", "");
+//        String chkString = url;
+//        String checksum = Checksum.calculateChecksum("1KRdecbEiD9HGTlM93lAq79ygRopevJD5hz0KoGjjIhERwYB9g8T3KJr5i0PRh83", chkString.replaceAll("&.*?=", ""));
+//        url = urlM.replaceAll("checksum.*?(?=&)", String.format("checksum=%s", checksum));
+//    }
 
 
     @Test(priority = 1)
