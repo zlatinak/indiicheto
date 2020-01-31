@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.Iterator;
@@ -24,7 +25,10 @@ import java.util.Set;
 
             //click on each link in the column
             for(int i=1;i<columnDriver.findElements(By.tagName("a")).size();i++){
-                columnDriver.findElements(By.tagName("a")).get(i).click();
+                //open it in new tab
+                String clickLinkTab=Keys.chord(Keys.CONTROL,Keys.ENTER);
+//                columnDriver.findElements(By.tagName("a")).get(i).click();
+                columnDriver.findElements(By.tagName("a")).get(i).sendKeys(clickLinkTab);
             }
 
         }
