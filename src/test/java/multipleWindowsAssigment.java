@@ -14,7 +14,8 @@ public class multipleWindowsAssigment {
         driver.get("http://the-internet.herokuapp.com/windows");
         driver.findElement(By.xpath("//*[@id=\"content\"]/div/a")).click();//click on the link
 
-        Set<String> ids=driver.getWindowHandles();
+        Set<String> ids=driver.getWindowHandles(); // getWindowHandle() will get the handle of the page the webDriver is currently controlling.
+
         Iterator<String> it = ids.iterator();
         String parentId= it.next();
         String childId=it.next();
