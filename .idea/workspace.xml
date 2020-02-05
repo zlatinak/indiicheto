@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2de1a8b3-1434-4488-8128-efed92c407e8" name="Default Changelist" comment="Change the way clicking on &quot;Add to cart&quot; button&#10;adding counter to break the &quot;for&quot;&#10;split a String">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indiicheto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Assignments/AssignmenChapter13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestTests/FunctionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestTests/GetEmployeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestTests/NetDepositServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestTests/PostApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/indiicheto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/indiicheto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Assigment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Assignments/Assigment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Assignment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Assignments/Assignment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LimitingWebDriverScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Windows/LimitingWebDriverScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Windows/framesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/multipleWindowsAssigment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Windows/multipleWindowsAssigment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AutoSuggestive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AutoSuggestive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CheckboxExercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CheckboxExercises.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Dropdowns.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Dropdowns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DynamicDropDowns.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DynamicDropDowns.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="indiicheto" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\zlatinap\IdeaProjects\indiicheto\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ubmi2zYBMoTLjvMJq2xgXFtBEQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jar_files/log4j-1.2.17.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Application.Calendar">
+    <configuration name="Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calendar" />
+      <module name="indiicheto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dropdowns" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dropdowns" />
+      <module name="indiicheto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetEmployeed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="indiicheto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestTests" />
+      <option name="MAIN_CLASS_NAME" value="RestTests.GetEmployeed" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostApiTest.createEmployess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="indiicheto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestTests" />
+      <option name="MAIN_CLASS_NAME" value="RestTests.PostApiTest" />
+      <option name="METHOD_NAME" value="createEmployess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostApiTest.returnNetDeposit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="indiicheto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestTests" />
+      <option name="MAIN_CLASS_NAME" value="RestTests.PostApiTest" />
+      <option name="METHOD_NAME" value="returnNetDeposit" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostApiTest.returnNetDeposit1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="indiicheto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestTests" />
+      <option name="MAIN_CLASS_NAME" value="RestTests.PostApiTest" />
+      <option name="METHOD_NAME" value="returnNetDeposit1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Calendar" />
+        <item itemvalue="TestNG.PostApiTest.returnNetDeposit1" />
+        <item itemvalue="TestNG.PostApiTest.returnNetDeposit" />
+        <item itemvalue="TestNG.PostApiTest.createEmployess" />
+        <item itemvalue="TestNG.GetEmployeed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2de1a8b3-1434-4488-8128-efed92c407e8" name="Default Changelist" comment="" />
+      <created>1575633793035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575633793035</updated>
+    </task>
+    <task id="LOCAL-00001" summary="hello indiicheTO">
+      <created>1576596485391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576596485391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hello indiicheTO">
+      <created>1576596914687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576596914687</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hello indiicheTO">
+      <created>1576600797042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576600797042</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change opasity">
+      <created>1576653152260</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576653152260</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lesson 63">
+      <created>1576653166246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576653166246</updated>
+    </task>
+    <task id="LOCAL-00006" summary="handle alerts">
+      <created>1576655572367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576655572367</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Enter new class with Chapter 8 final">
+      <created>1576658256576</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576658256576</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Formatting the code">
+      <created>1576661796708</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576661796708</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Change the way clicking on &quot;Add to cart&quot; button&#10;adding counter to break the &quot;for&quot;&#10;split a String">
+      <created>1577959215269</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577959215269</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding method&#10;Adding implicit wait">
+      <created>1577975764305</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577975764305</updated>
+    </task>
+    <task id="LOCAL-00011" summary="utyutgy">
+      <created>1578066126827</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578066126827</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fluent Wait">
+      <created>1578298872397</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578298872397</updated>
+    </task>
+    <task id="LOCAL-00013" summary="actionsDemo class &#10;exercising Actions -&gt; double click, right click, mouse over(move to Element) etc.">
+      <created>1578474928899</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578474928899</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test">
+      <created>1578671914366</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578671914366</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Change the way clicking on &quot;Add to cart&quot; button&#10;adding counter to break the &quot;for&quot;&#10;split a String">
+      <created>1580479536462</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580479536462</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test">
+      <created>1580482081565</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580482081565</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Change the way clicking on &quot;Add to cart&quot; button&#10;adding counter to break the &quot;for&quot;&#10;split a String">
+      <created>1580482976319</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1580482976319</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello indiicheTO" />
+    <MESSAGE value="change opasity" />
+    <MESSAGE value="Lesson 63" />
+    <MESSAGE value="handle alerts" />
+    <MESSAGE value="Enter new class with Chapter 8 final" />
+    <MESSAGE value="Formatting the code" />
+    <MESSAGE value="Adding method&#10;Adding implicit wait" />
+    <MESSAGE value="utyutgy" />
+    <MESSAGE value="Fluent Wait" />
+    <MESSAGE value="actionsDemo class &#10;exercising Actions -&gt; double click, right click, mouse over(move to Element) etc." />
+    <MESSAGE value="test" />
+    <MESSAGE value="Change the way clicking on &quot;Add to cart&quot; button&#10;adding counter to break the &quot;for&quot;&#10;split a String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the way clicking on &quot;Add to cart&quot; button&#10;adding counter to break the &quot;for&quot;&#10;split a String" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2472" y="178" key="#Project_Structure" timestamp="1577949065550">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577949065550" />
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576594133508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576594133508" />
+    <state x="2359" y="529" width="1181" height="511" key="#xdebugger.evaluate" timestamp="1580716501192">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2359" y="529" width="1181" height="511" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580716501192" />
+    <state x="2534" y="116" width="1172" height="812" key="CommitChangelistDialog2" timestamp="1580908040281">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576596911395" />
+    <state x="2534" y="116" width="1172" height="812" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580908040281" />
+    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1577949063946">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577949063946" />
+    <state x="838" y="413" width="260" height="214" key="Github.ShareDialog" timestamp="1576596821257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="413" width="260" height="214" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576596821257" />
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1580907694185">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580886214347" />
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580907694185" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1580907694185">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580886214347" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580907694185" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1580907694185">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580886214347" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580907694185" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1580907694185">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580886214347" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580907694185" />
+    <state width="1877" height="409" key="GridCell.Tab.1.bottom" timestamp="1580716665767">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="409" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580716665767" />
+    <state width="1877" height="409" key="GridCell.Tab.1.center" timestamp="1580716665767">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="409" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580716665767" />
+    <state width="1877" height="409" key="GridCell.Tab.1.left" timestamp="1580716665767">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="409" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580716665767" />
+    <state width="1877" height="409" key="GridCell.Tab.1.right" timestamp="1580716665767">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="409" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580716665767" />
+    <state x="2104" y="85" key="MergeDialog" timestamp="1577948839119">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2104" y="85" key="MergeDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577948839119" />
+    <state x="2592" y="235" key="MultipleFileMergeDialog" timestamp="1577948854061">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2592" y="235" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577948854061" />
+    <state x="2381" y="162" key="SettingsEditor" timestamp="1576596138897">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576596138897" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1580908050003">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576596929233" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580908050003" />
+    <state x="2575" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1580286552119">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576594335711" />
+    <state x="2575" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580286552119" />
+    <state x="2689" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578643388702">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2689" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578643388702" />
+    <state x="2605" y="311" key="git4idea.merge.GitPullDialog" timestamp="1577948757064">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576596921655" />
+    <state x="2605" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577948757064" />
+    <state x="2700" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1576596227194">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2700" y="384" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576596227194" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580481532356">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580481532356" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Dropdowns.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DynamicDropDowns.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AutoSuggestive.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AutoSuggestive.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Dropdowns.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CheckboxExercises.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SpiceJetEndtoEnd.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Assignments/Assignment2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/fluentWaitTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/fluentWaitTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Assignments/AssignmenChapter13.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Calendar.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Calendar.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
