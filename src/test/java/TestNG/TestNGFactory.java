@@ -1,0 +1,15 @@
+package TestNG;
+
+import org.testng.annotations.Factory;
+
+public class TestNGFactory {
+
+    @Factory()
+    public Object[] getTestClasses() {
+        Object[] tests = new Object[2];
+        tests[0] = new Test1();
+        tests[1] = new Test2();
+        return tests;
+    }
+
+}
